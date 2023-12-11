@@ -11,7 +11,6 @@ import SafeTokenWidget, { getSafeTokenAddress } from '@/components/common/SafeTo
 import NotificationCenter from '@/components/notification-center/NotificationCenter'
 import { AppRoutes } from '@/config/routes'
 import useChainId from '@/hooks/useChainId'
-import SafeLogo from '@/public/images/logo.svg'
 import Link from 'next/link'
 import useSafeAddress from '@/hooks/useSafeAddress'
 import BatchIndicator from '@/components/batch/BatchIndicator'
@@ -19,6 +18,7 @@ import WalletConnectUi from '@/components/walletconnect'
 import { PushNotificationsBanner } from '@/components/settings/PushNotifications/PushNotificationsBanner'
 import { useCurrentChain } from '@/hooks/useChains'
 import { hasFeature, FEATURES } from '@/utils/chains'
+import { LightLinkLogoSVG } from '@/public/images/svg-components'
 
 type HeaderProps = {
   onMenuToggle?: Dispatch<SetStateAction<boolean>>
@@ -60,7 +60,7 @@ const Header = ({ onMenuToggle, onBatchToggle }: HeaderProps): ReactElement => {
 
       <div className={classnames(css.element, css.hideMobile, css.logo)}>
         <Link href={logoHref} passHref>
-          <SafeLogo alt="Safe logo" />
+          <LightLinkLogoSVG />
         </Link>
       </div>
 
