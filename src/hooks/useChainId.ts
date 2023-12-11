@@ -8,6 +8,7 @@ import { parsePrefixedAddress } from '@/utils/addresses'
 import { prefixedAddressRe } from '@/utils/url'
 import useWallet from './wallets/useWallet'
 import useChains from './useChains'
+import { head } from 'lodash'
 
 const defaultChainId = IS_PRODUCTION ? chains.eth : chains.gor
 
@@ -56,7 +57,9 @@ export const useChainId = (): string => {
   const walletChainId =
     wallet?.chainId && configs.some(({ chainId }) => chainId === wallet.chainId) ? wallet.chainId : undefined
 
-  return urlChainId || walletChainId || session.lastChainId || defaultChainId
+  const firstOfConfigsChainId = head(configs)?.chainId
+
+  return urlChainId || walletChainId || session.lastChainId || firstOfConfigsChainId || defaultChainId
 }
 
 export default useChainId
