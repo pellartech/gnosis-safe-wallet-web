@@ -19,6 +19,7 @@ import { PushNotificationsBanner } from '@/components/settings/PushNotifications
 import { useCurrentChain } from '@/hooks/useChains'
 import { hasFeature, FEATURES } from '@/utils/chains'
 import { LightLinkLogoSVG } from '@/public/images/svg-components'
+import { useDarkMode } from '@/hooks/useDarkMode'
 
 type HeaderProps = {
   onMenuToggle?: Dispatch<SetStateAction<boolean>>
@@ -32,6 +33,7 @@ const Header = ({ onMenuToggle, onBatchToggle }: HeaderProps): ReactElement => {
   const router = useRouter()
   const chain = useCurrentChain()
   const enableWc = !!chain && hasFeature(chain, FEATURES.NATIVE_WALLETCONNECT)
+  const isDarkMode = useDarkMode()
 
   // Logo link: if on Dashboard, link to Welcome, otherwise to the root (which redirects to either Dashboard or Welcome)
   const logoHref = router.pathname === AppRoutes.home ? AppRoutes.welcome.index : AppRoutes.index
@@ -60,7 +62,7 @@ const Header = ({ onMenuToggle, onBatchToggle }: HeaderProps): ReactElement => {
 
       <div className={classnames(css.element, css.hideMobile, css.logo)}>
         <Link href={logoHref} passHref>
-          <LightLinkLogoSVG />
+          <LightLinkLogoSVG fill={isDarkMode ? 'white' : 'black'} />
         </Link>
       </div>
 
