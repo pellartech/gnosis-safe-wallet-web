@@ -7,7 +7,7 @@ interface LightLinkLogoSVGProps {
 export const LightLinkLogoSVG = ({ fill = 'white' }: LightLinkLogoSVGProps): ReactElement => {
   return (
     <svg width="118" height="24" viewBox="0 0 118 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#clip0_10152_72995)">
+      <g clipPath="url(#clip0_10152_72995)">
         <path
           d="M12.6614 14.3711C12.2264 14.8526 12.2273 15.6426 12.6639 16.1259L15.8352 19.6365C16.2719 20.1199 16.9846 20.1209 17.4204 19.6394C17.8553 19.158 17.8545 18.3679 17.4178 17.8846L14.2466 14.374C13.8099 13.8906 13.0971 13.8897 12.6614 14.3711Z"
           fill="url(#paint0_linear_10152_72995)"
@@ -64,13 +64,13 @@ export const LightLinkLogoSVG = ({ fill = 'white' }: LightLinkLogoSVGProps): Rea
           y2="19.2314"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.12" stop-color="#6978FF" />
-          <stop offset="0.19" stop-color="#5F87FF" />
-          <stop offset="0.35" stop-color="#4DA4FF" />
-          <stop offset="0.51" stop-color="#40B9FF" />
-          <stop offset="0.66" stop-color="#38C6FF" />
-          <stop offset="0.81" stop-color="#36CBFF" />
-          <stop offset="1" stop-color="#67FFFC" />
+          <stop offset="0.12" stopColor="#6978FF" />
+          <stop offset="0.19" stopColor="#5F87FF" />
+          <stop offset="0.35" stopColor="#4DA4FF" />
+          <stop offset="0.51" stopColor="#40B9FF" />
+          <stop offset="0.66" stopColor="#38C6FF" />
+          <stop offset="0.81" stopColor="#36CBFF" />
+          <stop offset="1" stopColor="#67FFFC" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_10152_72995"
@@ -80,12 +80,12 @@ export const LightLinkLogoSVG = ({ fill = 'white' }: LightLinkLogoSVGProps): Rea
           y2="2.36234"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#6978FF" />
-          <stop offset="0.44" stop-color="#6184FF" />
-          <stop offset="0.65" stop-color="#49AAFF" />
-          <stop offset="0.81" stop-color="#3BC2FF" />
-          <stop offset="0.91" stop-color="#36CBFF" />
-          <stop offset="1" stop-color="#67FFFC" />
+          <stop offset="0.39" stopColor="#6978FF" />
+          <stop offset="0.44" stopColor="#6184FF" />
+          <stop offset="0.65" stopColor="#49AAFF" />
+          <stop offset="0.81" stopColor="#3BC2FF" />
+          <stop offset="0.91" stopColor="#36CBFF" />
+          <stop offset="1" stopColor="#67FFFC" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_10152_72995"
@@ -95,13 +95,13 @@ export const LightLinkLogoSVG = ({ fill = 'white' }: LightLinkLogoSVGProps): Rea
           y2="29.4781"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.05" stop-color="#6978FF" />
-          <stop offset="0.12" stop-color="#5F87FF" />
-          <stop offset="0.3" stop-color="#4DA4FF" />
-          <stop offset="0.48" stop-color="#40B9FF" />
-          <stop offset="0.65" stop-color="#38C6FF" />
-          <stop offset="0.81" stop-color="#36CBFF" />
-          <stop offset="1" stop-color="#67FFFC" />
+          <stop offset="0.05" stopColor="#6978FF" />
+          <stop offset="0.12" stopColor="#5F87FF" />
+          <stop offset="0.3" stopColor="#4DA4FF" />
+          <stop offset="0.48" stopColor="#40B9FF" />
+          <stop offset="0.65" stopColor="#38C6FF" />
+          <stop offset="0.81" stopColor="#36CBFF" />
+          <stop offset="1" stopColor="#67FFFC" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_10152_72995"
@@ -111,13 +111,13 @@ export const LightLinkLogoSVG = ({ fill = 'white' }: LightLinkLogoSVGProps): Rea
           y2="12.1462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.12" stop-color="#6978FF" />
-          <stop offset="0.19" stop-color="#5F87FF" />
-          <stop offset="0.35" stop-color="#4DA4FF" />
-          <stop offset="0.51" stop-color="#40B9FF" />
-          <stop offset="0.66" stop-color="#38C6FF" />
-          <stop offset="0.81" stop-color="#36CBFF" />
-          <stop offset="1" stop-color="#67FFFC" />
+          <stop offset="0.12" stopColor="#6978FF" />
+          <stop offset="0.19" stopColor="#5F87FF" />
+          <stop offset="0.35" stopColor="#4DA4FF" />
+          <stop offset="0.51" stopColor="#40B9FF" />
+          <stop offset="0.66" stopColor="#38C6FF" />
+          <stop offset="0.81" stopColor="#36CBFF" />
+          <stop offset="1" stopColor="#67FFFC" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_10152_72995"
@@ -127,13 +127,13 @@ export const LightLinkLogoSVG = ({ fill = 'white' }: LightLinkLogoSVGProps): Rea
           y2="9.17734"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.31" stop-color="#6978FF" />
-          <stop offset="0.36" stop-color="#5F87FF" />
-          <stop offset="0.48" stop-color="#4DA4FF" />
-          <stop offset="0.59" stop-color="#40B9FF" />
-          <stop offset="0.7" stop-color="#38C6FF" />
-          <stop offset="0.81" stop-color="#36CBFF" />
-          <stop offset="1" stop-color="#67FFFC" />
+          <stop offset="0.31" stopColor="#6978FF" />
+          <stop offset="0.36" stopColor="#5F87FF" />
+          <stop offset="0.48" stopColor="#4DA4FF" />
+          <stop offset="0.59" stopColor="#40B9FF" />
+          <stop offset="0.7" stopColor="#38C6FF" />
+          <stop offset="0.81" stopColor="#36CBFF" />
+          <stop offset="1" stopColor="#67FFFC" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_10152_72995"
@@ -143,13 +143,13 @@ export const LightLinkLogoSVG = ({ fill = 'white' }: LightLinkLogoSVGProps): Rea
           y2="13.0492"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#6978FF" />
-          <stop offset="0.09" stop-color="#5F87FF" />
-          <stop offset="0.28" stop-color="#4DA4FF" />
-          <stop offset="0.46" stop-color="#40B9FF" />
-          <stop offset="0.64" stop-color="#38C6FF" />
-          <stop offset="0.81" stop-color="#36CBFF" />
-          <stop offset="1" stop-color="#67FFFC" />
+          <stop stopColor="#6978FF" />
+          <stop offset="0.09" stopColor="#5F87FF" />
+          <stop offset="0.28" stopColor="#4DA4FF" />
+          <stop offset="0.46" stopColor="#40B9FF" />
+          <stop offset="0.64" stopColor="#38C6FF" />
+          <stop offset="0.81" stopColor="#36CBFF" />
+          <stop offset="1" stopColor="#67FFFC" />
         </linearGradient>
         <clipPath id="clip0_10152_72995">
           <rect width="118" height="24" fill="white" />
